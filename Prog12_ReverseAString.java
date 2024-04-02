@@ -14,6 +14,7 @@ public class Prog12_ReverseAString {
 		*/
 		
 		//Using Normal conditional statement
+		/*
 		//Initialize the String
 		 String str = "I Am Working In TCS", rstr="";
 		 
@@ -25,7 +26,18 @@ public class Prog12_ReverseAString {
 			 rstr = ch + rstr;
 		 }
 		 System.out.println(rstr);
-		 		
+		 */
+		
+		//Using another simple method using conditional statement
+		String str = "I Am Working In TCS";
+		
+		char[] ch = str.toCharArray();
+		
+		for(int i = ch.length - 1 ; i >= 0 ; i--) {
+			System.out.print(ch[i]);
+		}
+		
+		
 	}
 
 }
